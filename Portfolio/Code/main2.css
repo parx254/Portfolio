@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Nunito');
-* {-webkit-box-sizing: border-box;box-sizing: border-box;
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
 position: relative;
@@ -72,8 +74,8 @@ color: #ffffff;
     font-style: italic;
     letter-spacing: 0.075em;
     font-size: 3.5em;
-text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-               0px -5px 35px rgba(255,255,255,0.3);
+    font-weight: bold;
+
                  
 
 }
@@ -142,6 +144,8 @@ body > .container-fluid {
 font-family: 'Nunito', sans-serif;
     font-style: italic;
     letter-spacing: 0.15em;
+    font-weight: bold;
+
 
 }
 
@@ -171,7 +175,7 @@ letter-spacing: 0.15em;
 .navbar-default .navbar-toggle {
   border-color: #040F3D; }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #0496FF; }
+    background-color: #0496ff; }
   .navbar-default .navbar-toggle .icon-bar {
     color: #040F3D;
     background-color: #040F3D; }
@@ -203,14 +207,14 @@ letter-spacing: 0.15em;
     -o-transition: color 1s ease 0s;
     transition: color 1s ease 0s; }
   .navbar.solid .navbar-nav > li > .active {
-    color: #0496FF;
+    color: #0496ff;
     }
 .cover {
   padding: 10% 0 10% 0;
 
 }
 a {
-    color: #0496FF;
+    color: #0496ff;
 }
   .cover.top {
     padding: 15% 0 10% 0;
@@ -222,9 +226,13 @@ a {
       
 }
 /* FBF6CF */
-.cover .top h1 {
-    color: white;
+.cover.top h1 {
+    color: #ffffff;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+               0px -5px 35px rgba(255,255,255,0.3);
 }
+
+
 
 header {
   position: relative;
@@ -331,7 +339,7 @@ header .container {
     color: #3772FF;
 }
 #portfolio h1 {
-    color: #0496FF;
+    color: #ffffff;
 }
 #about hr {
     color: #FF4040;
@@ -376,12 +384,12 @@ image2 {}
 
 #portfolio {
 
-  background-color: #f5f5f5;
-  background-image: -webkit-linear-gradient(97.5deg, #ffffff 40%, #f5f5f5 40%);
+  background-color: #3772FF;
+  background-image: -webkit-linear-gradient(97.5deg, #ffffff 40%, #3772FF 40%);
   min-height: 400px;
 }
 
-
+/* #662EB */
 
   #portfolio h2 {
     padding-bottom: 1.25em; }
