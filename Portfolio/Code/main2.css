@@ -24,7 +24,7 @@ font-family: 'Open Sans', sans-serif;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 flex-flow:column nowrap;
-    min-height:100%; /* fix IE11 */
+    min-height:100%; /* fix IE 11 */
 }
 #wrapper {position: absolute;
     width: 100%;
@@ -355,6 +355,11 @@ header .container {
 #contact h3{
     color: #ff4040;
 }
+#portfolio h2 {
+    padding-bottom: 1.25em; 
+}
+#contact h2 {
+color: #FF4040; } 
 .profile-img {
   margin-bottom: 15px;
   width: 200px;
@@ -395,15 +400,14 @@ header .container {
 
 #portfolio {
 
-  background-color: #FFE74C;
-  background-image: -webkit-linear-gradient(97.5deg, #FFE74C 40%, #f5f5f5 40%);
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(97.5deg, #000000 40%, #f5f5f5 40%);
   min-height: 400px;
 }
 
 /* #662EB */
 
-  #portfolio h2 {
-    padding-bottom: 1.25em; }
+
 
 
 .wrapper {
@@ -509,14 +513,14 @@ img-card h1 {
 }
 .card-title a {
   color: #000;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 .popup-vimeo {
   border-top: 1px solid #D4D4D4;
 
 }
 .popup-vimeo a {
-  text-decoration: none !important;
+  text-decoration: none;
   padding:10px;
   font-weight:600;
   text-transform: uppercase;
@@ -524,6 +528,7 @@ img-card h1 {
 button,
 button::after {
   -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
 	transition: all 0.3s;
 }
@@ -606,8 +611,7 @@ button:hover {
 height: auto;
 
 }
-  #contact h2 {
-    color: #FF4040; }
+
 hr {
         border-color: #d1d7e0;
 
@@ -665,12 +669,13 @@ box-shadow:  0 0 30px 15px #ffffff,  /* outer crimson sky */
     width: 100%;
     background: transparent;
     border: none;
-    border-bottom: 1px solid #040F3D;
+    border-bottom: 1px solid #0496ff;
     font-size: 12px;
-    color: #040F3D;
+    color: gray;
     margin-bottom: 16px;
     outline: none;
 }
+
 input{
     height: 45px;
 }
