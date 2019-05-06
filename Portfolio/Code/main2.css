@@ -429,8 +429,8 @@ box-shadow:  0 0 30px 15px #ffffff,  /* outer crimson sky */
 
 #portfolio {
 
-  background-color: #FFFD82;
-  background-image: -webkit-linear-gradient(97.5deg, #f5f5f5 40%, #FFFD82 40%);
+  background-color: #f5f5f5;
+  background-image: -webkit-linear-gradient(97.5deg, #f5f5f5 40%, #FFE74C 40%);
   min-height: 400px;
 }
 
@@ -690,7 +690,7 @@ hr {
 }
 .form-group:focus{
     box-shadow: none;
-    border-bottom: 2px solid #FFFD82;
+    border-bottom: 2px solid #040F3D;
 }
 
   input{
