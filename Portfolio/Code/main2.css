@@ -670,6 +670,7 @@ hr {
     background: transparent;
     color: white;
     padding: 5%;
+    width: 100%;
     
 }
 .form-group{
@@ -681,11 +682,21 @@ hr {
     color: gray;
     margin-bottom: 16px;
     outline: none;
+    border-radius: 0;
+    transition: .5s .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+.form-group:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #FFFD82;
 }
 
   input{
       height: 45px;
 }
+
 form .submit{
     background: #0496ff;
     border-color: transparent;
@@ -695,13 +706,14 @@ form .submit{
     margin-top: 20px;
     width: 100%;
     border-radius: 20px;
+        transition: .5s ease-in-out;
+            -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
 }
 form .submit:hover{
     background: #040F3D;
-    -webkit-transition: color 1s ease 0s;
-    -o-transition: color 1s ease 0s;
-    -moz-transition: color 1s ease 0s;
-    transition: color 1s ease 0s;
+    
 }
 .back-to-top {
   display: none; }
