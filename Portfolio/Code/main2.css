@@ -168,7 +168,7 @@ font-family: 'Open Sans', sans-serif;
 letter-spacing: 0.15em;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: #22a7f0;
+  color: #3772FF;
   border: 1px solid #040F3D;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -417,7 +417,7 @@ box-shadow:  0 0 30px 15px #ffffff,  /* outer crimson sky */
     margin: 0 0 0.3em;
   }
 } 
-/*card aspects*/
+/*card properties*/
 .card {
   display: block; 
     margin-bottom: 30px;
