@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Nunito');
-
+/*Google Fonts*/
 html {
 position: relative;
   height: 100%;
@@ -168,7 +168,7 @@ font-family: 'Open Sans', sans-serif;
 letter-spacing: 0.15em;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: #3772FF;
+  color: #0496ff;
   border: 1px solid #040F3D;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -216,7 +216,7 @@ letter-spacing: 0.15em;
     -o-transition: color 1s ease 0s;
     transition: color 1s ease 0s; }
   .navbar.solid .navbar-nav > li > a:hover {
-    color: #22a7f0;
+    color: #0496ff;
     -webkit-transition: color 1s ease 0s;
         -moz-transition: color 1s ease 0s;
     -o-transition: color 1s ease 0s;
