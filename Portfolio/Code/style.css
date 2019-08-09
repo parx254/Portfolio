@@ -18,9 +18,7 @@ h2{font-family:'Nunito',sans-serif;color:#fff;font-size:3em}
 h3,h4{color:#fff;font-family:'Nunito',sans-serif}
 h5{font-family:'Nunito',sans-serif;letter-spacing:.075em;color:#040f3d}
 a{color:#ff4040}
-a:hover{
-    color: #8b0000;
-}
+a:hover{color:#8b0000}
 .cover.top h1{color:#fff; /* text-shadow:2px 8px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3) */}
 #about h3{color:#000}
 #about h4{color:#040f3d}
@@ -40,22 +38,22 @@ body>.container-fluid{padding:0 15px 0}
 .btn:focus,a:focus{outline:0}
 .navbar{height:70px;background-color:transparent;background:transparent;border:0;color:#fff;z-index:100;margin-bottom:0;border-radius:0;-webkit-transition:background-color 1s ease 0s;-moz-transition:background-color 1s ease 0s;-o-transition:background-color 1s ease 0s;transition:background-color 1s ease 0s}
 .navbar-brand{display:none;margin-top:10px;color:#000;font-family:'Nunito',sans-serif;font-style:italic;letter-spacing:.15em}
-.navbar-default .navbar-nav>li>a{font-family:'Open Sans',sans-serif;color:#f5f5f5;font-size:1em;text-transform:uppercase;margin:5px 5px 5px 5px;border-radius:20px;letter-spacing:.15em}
-.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:focus{color:#ff4040;border:1px solid #040f3d;-webkit-transition:all .4s;-moz-transition:all .4s;-o-transition:all .4s;transition:all .4s}
+.navbar-default .navbar-nav>li>a{border:1px solid transparent;font-family:'Open Sans',sans-serif;color:#f5f5f5;font-size:1em;text-transform:uppercase;margin:5px 5px 5px 5px;border-radius:20px;letter-spacing:.15em}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:focus{color:#ff4040;border:1px solid #000;-webkit-transition:all .4s;-moz-transition:all .4s;-o-transition:all .4s;transition:all .4s}
 .navbar-default .navbar-nav>li>a:visited{color:#f9f9f9;text-decoration:none}
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{background-color:transparent;color:#000}
 .navbar-default .navbar-toggle{border-color:#ccc}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#000}
 .navbar-default .navbar-toggle .icon-bar{color:#ccc;background-color:#ccc}
-.navbar-default .navbar-collapse.collapse.in ul{background-color:#040f3d}
+.navbar-default .navbar-collapse.collapse.in ul{background-color:#000}
 .navbar.solid{background-color:#fff;-webkit-transition:background-color 1s ease 0s;-o-transition:background-color 1s ease 0s;transition:background-color 1s ease 0s;-moz-transition:background-color 1s ease 0s;-webkit-box-shadow:0 0 4px rgba(7,55,74,0.2);-moz-box-shadow:0 0 4px rgba(7,55,74,0.2);-o-box-shadow:background-color 1s ease 0s;box-shadow:0 0 4px rgba(7,55,74,0.2)}
 .navbar.solid .navbar-brand{display:inline-block;-webkit-transition:color 1s ease 0s;-moz-transition:color 1s ease 0s;-o-transition:color 1s ease 0s;transition:color 1s ease 0s}
 .navbar.solid .navbar-nav>li>a{color:#000;-webkit-transition:color 1s ease 0s;-moz-transition:color 1s ease 0s;-o-transition:color 1s ease 0s;transition:color 1s ease 0s}
 .navbar.solid .navbar-nav>li>a:hover{color:#ff4040;-webkit-transition:color 1s ease 0s;-moz-transition:color 1s ease 0s;-o-transition:color 1s ease 0s;transition:color 1s ease 0s}
 .navbar.solid .navbar-nav>li>.active{color:#ff4040}
 .cover{padding:10% 0 10% 0}
-.cover.top{padding:15% 0 10% 0;height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;background:linear-gradient(to right bottom,#000 0,#000 100%)}
-header{position:relative;background-color:#000;height:100%;width:100%;overflow:hidden;clip-path:polygon(0 0,100% 0,100% 100%,0 calc(100% - 20%));-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 calc(100% - 20%))}
+.cover.top{padding:15% 0 10% 0;height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;background:linear-gradient(to right bottom,#474a51 0,#474a51 100%)}
+header{position:relative;background-color:#474a51;height:100%;width:100%;overflow:hidden;clip-path:polygon(0 0,100% 0,100% 100%,0 calc(100% - 20%));-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 calc(100% - 20%))}
 header video{position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;z-index:0;-ms-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);opacity:.25}
 header .container{position:relative;z-index:2}
 #scrollIcon,#scrollTopIcon{margin-top:10px;padding:10px;font-size:1.5em;color:#000;background:#fff;opacity:.9;border-radius:50%;box-shadow:0 0 30px 15px #fff,0 0 0 0 #fff,0 0 0 0 #fff}
