@@ -130,7 +130,7 @@ header video{display:none}
 .contact-form:-ms-input-placeholder{color:#fff}
 .contact-form::-ms-input-placeholder{color:#fff}
 .form-group{width:100%;background:transparent;border:0;border-bottom:1px solid #ccc;font-family:'MontLight',sans-serif;color:gray;margin-bottom:16px;margin-top:16px;outline:0;border-radius:0;transition:.5s .5s ease-in-out;-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;font-size:16px}
-.form-group:focus{box-shadow:none;border-bottom:2px solid #000}
+.form-group:focus{box-shadow:none;border-bottom:1px solid #000}
 .form-group input{height:45px;color:#fff}
 form .submit{background:#ffffff;border: 2px solid #000;margin-bottom:50px;color:#000;font-family:'Nunito',sans-serif;height:50px;margin-top:20px;width:100%;font-size:24px;border-radius:20px;transition:.5s ease-in-out;-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out}
 form .submit:hover{background:#000;color: #ffffff}
